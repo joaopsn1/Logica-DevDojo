@@ -1,4 +1,4 @@
-package aula18;
+package estruturascondicionais.ifelse.aula18;
 
 /*
 Escreva nome e idade de participantes de um torneio de natação e que o sistema imprimisse da seguinte forma:
@@ -14,7 +14,7 @@ public class TorneioNatacao {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nome do Participante: ");
-        String nome = scanner.next();
+        String nome = scanner.nextLine();
         System.out.print("Idade do Participante: ");
         int idade = scanner.nextInt();
         if (idade <= 10) {

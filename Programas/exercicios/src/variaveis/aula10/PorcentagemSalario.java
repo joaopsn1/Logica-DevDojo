@@ -1,4 +1,4 @@
-package aula10;
+package variaveis.aula10;
 
 /*
 Crie um valor de entrada para o salário;

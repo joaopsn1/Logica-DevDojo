@@ -1,4 +1,4 @@
-package aula16;
+package estruturascondicionais.ifelse.aula16;
 
 /*
 Dado um determinado número inteiro;

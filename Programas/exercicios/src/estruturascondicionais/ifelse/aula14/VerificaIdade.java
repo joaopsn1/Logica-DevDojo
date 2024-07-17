@@ -1,4 +1,4 @@
-package aula14;
+package estruturascondicionais.ifelse.aula14;
 
 /*
 Receba uma idade como entrada;

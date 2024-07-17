@@ -1,4 +1,4 @@
-package aula08;
+package variaveis.aula08;
 
 /*
 Crie uma variável para guardar a primeira idade;

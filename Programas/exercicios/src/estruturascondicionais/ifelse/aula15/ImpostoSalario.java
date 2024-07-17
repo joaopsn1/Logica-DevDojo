@@ -1,4 +1,4 @@
-package aula15;
+package estruturascondicionais.ifelse.aula15;
 
 /*
 Dado um determinado salário;

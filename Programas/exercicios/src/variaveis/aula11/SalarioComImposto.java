@@ -1,4 +1,4 @@
-package aula11;
+package variaveis.aula11;
 
 /*
 Crie uma variável que irá guardar o valor de um salário;
