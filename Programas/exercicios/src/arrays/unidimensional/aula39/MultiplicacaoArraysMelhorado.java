@@ -1,4 +1,4 @@
-package arrays.aula39;
+package arrays.unidimensional.aula39;
 
 /*
 Armazenar em dois vetores V1 e V2 9 valores numéricos inteiros e exibir o resultado da multiplicação dos números do V1 com os correspondentes em V2.

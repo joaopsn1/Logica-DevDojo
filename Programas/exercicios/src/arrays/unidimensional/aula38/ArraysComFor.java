@@ -1,4 +1,4 @@
-package arrays.aula38;
+package arrays.unidimensional.aula38;
 
 import java.util.Scanner;
 
