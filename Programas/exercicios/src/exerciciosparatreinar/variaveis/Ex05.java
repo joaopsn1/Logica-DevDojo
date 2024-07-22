@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class Ex05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        DecimalFormat formatacao = new DecimalFormat("0.00");
+        DecimalFormat format = new DecimalFormat("0.00");
 
         double pi = Math.PI;
         System.out.print("Digite o valor do raio: ");
@@ -28,7 +28,7 @@ public class Ex05 {
         double altura = scanner.nextDouble();
         double volumeLata = pi * (Math.pow(raio, 2)) * altura;
 
-        String volumeFormatado = formatacao.format(volumeLata);
+        String volumeFormatado = format.format(volumeLata);
         System.out.println("Volume da lata: " + volumeFormatado + " cm³");
     }
 }

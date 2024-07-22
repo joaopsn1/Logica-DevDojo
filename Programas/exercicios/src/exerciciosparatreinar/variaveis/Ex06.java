@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Ex06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        DecimalFormat formatacao = new DecimalFormat("0.00");
+        DecimalFormat format = new DecimalFormat("0.00");
 
         System.out.print("Digite o tempo de viagem [h]: ");
         double tempoViagem = scanner.nextDouble();
@@ -27,7 +27,7 @@ public class Ex06 {
         double distancia = (int) (tempoViagem * velocidade);
         double litros = distancia / 12;
 
-        String litrosFormatado = formatacao.format(litros);
+        String litrosFormatado = format.format(litros);
         System.out.println("Consumo da viagem: " + litrosFormatado + " L");
     }
 }

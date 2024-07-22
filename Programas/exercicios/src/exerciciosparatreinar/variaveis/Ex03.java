@@ -12,13 +12,13 @@ import java.util.Scanner;
 public class Ex03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        DecimalFormat formatacao = new DecimalFormat("0.00");
+        DecimalFormat format = new DecimalFormat("0.00");
 
         System.out.print("Digite a temperatura em graus °C: ");
         double temperaturaCelsius = scanner.nextDouble();
         double temperaturaFarenheit = (9 * temperaturaCelsius) / 5;
 
-        String tempFarenheitFormatado = formatacao.format(temperaturaFarenheit);
+        String tempFarenheitFormatado = format.format(temperaturaFarenheit);
         System.out.println("Temperatura em Farenheit: " + tempFarenheitFormatado + " °F");
     }
 }

@@ -17,14 +17,14 @@ import java.util.Scanner;
 public class Ex01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        DecimalFormat formatacao = new DecimalFormat("0.00");
+        DecimalFormat format = new DecimalFormat("0.00");
 
         double pi = Math.PI;
         System.out.print("Digite o raio do círculo: ");
         double raio = scanner.nextDouble();
         double area = pi * Math.pow(raio, 2);
 
-        String areaFormatada = formatacao.format(area);
+        String areaFormatada = format.format(area);
         System.out.println("Área do Círculo: " + areaFormatada);
     }
 }

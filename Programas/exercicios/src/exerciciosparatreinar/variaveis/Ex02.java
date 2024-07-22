@@ -23,7 +23,7 @@ import java.util.Scanner;
 public class Ex02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        DecimalFormat formatacao = new DecimalFormat("0.00");
+        DecimalFormat format = new DecimalFormat("0.00");
 
         System.out.print("Digite as horas trabalhadas: ");
         int horasTrabalhadas = scanner.nextInt();
@@ -34,10 +34,10 @@ public class Ex02 {
         double descontos = (percentualDesconto / 100) * salarioBase;
         double salarioLiquido = salarioBase - descontos;
 
-        String salarioBaseFormatado = formatacao.format(salarioBase);
+        String salarioBaseFormatado = format.format(salarioBase);
         System.out.println("Salário Base: R$ " + salarioBaseFormatado);
 
-        String salarioLiquidoFormatado = formatacao.format(salarioLiquido);
+        String salarioLiquidoFormatado = format.format(salarioLiquido);
 
         System.out.println("Salário Líquido: R$" + salarioLiquidoFormatado);
     }
