@@ -14,7 +14,7 @@ public class ArraysComFor {
             System.out.println("Nota " + (i + 1) + ": " + notas[i]);
             System.out.println("-------------");
         }
-        media = media/ notas.length;
+        media = media / notas.length;
         System.out.println("Media das notas: " + media);
     }
 }
