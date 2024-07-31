@@ -74,9 +74,7 @@ public class Ex02 {
         }
         System.out.println("CPF: " + cpf[0] + "" + cpf[1] + "" + cpf[2] + "." + cpf[3] + "" + cpf[4] + "" + cpf[5] + "." + cpf[6] + "" + cpf[7] + "" + cpf[8]);
 
-        System.out.println();
-
-        System.out.println("Digite o multiplicador decrescendo de 10 ");
+        System.out.println("\nDigite o multiplicador decrescendo de 10 ");
         for (int i = 0; i < multiplicador.length; i++) {
             System.out.print((i + 1) + "° multiplicador: ");
             multiplicador[i] = scanner.nextInt();
@@ -99,22 +97,18 @@ public class Ex02 {
             System.out.println("O 1° dígito verificador é " + subtracao1);
         }
 
-        System.out.println();
-
         cpf = new int[10];
         multiplicador = new int[10];
         resultado = new int[10];
 
-        System.out.println("Agora digite o CPF com o 1° valor do dígito verificador sendo " + subtracao1);
+        System.out.println("\nAgora digite o CPF com o 1° valor do dígito verificador sendo " + subtracao1);
         for (int i = 0; i < cpf.length; i++) {
             System.out.print((i + 1) + "° dígito do CPF: ");
             cpf[i] = scanner.nextInt();
         }
         System.out.println("CPF com 1° dígito verificador: " + cpf[0] + "" + cpf[1] + "" + cpf[2] + "." + cpf[3] + "" + cpf[4] + "" + cpf[5] + "." + cpf[6] + "" + cpf[7] + "" + cpf[8] + "-" + cpf[9]);
 
-        System.out.println();
-
-        System.out.println("Digite o multiplicador decrescendo de 11 ");
+        System.out.println("\nDigite o multiplicador decrescendo de 11 ");
         for (int i = 0; i < multiplicador.length; i++) {
             System.out.print((i + 1) + "° multiplicador: ");
             multiplicador[i] = scanner.nextInt();
@@ -137,11 +131,9 @@ public class Ex02 {
             System.out.println("O 2° dígito verificador é " + subtracao2);
         }
 
-        System.out.println();
-
         cpf = new int[11];
 
-        System.out.println("Agora digite seu CPF de acordo com os cálculos obtidos, considerando os dígitos verificadores: " + subtracao1 + subtracao2);
+        System.out.println("\nAgora digite seu CPF de acordo com os cálculos obtidos, considerando os dígitos verificadores: " + subtracao1 + subtracao2);
         for (int i = 0; i < cpf.length; i++) {
             System.out.print((i + 1) + "° dígito do CPF: ");
             cpf[i] = scanner.nextInt();
